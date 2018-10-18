@@ -1,0 +1,36 @@
+body {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: ;
+}
+
+
+#registration {
+
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    max-width: 300px;
+    margin-top: 2rem;
+    border: 1px solid #5d5d5d;
+    padding: 1rem;
+
+    border-radius: 5px;
+
+    /*border-radius: 50px;to make a circle*/
+
+
+
+}
+
+input,select {
+
+    margin: 1.8rem;
+    font-size: .9rem;
+    
+}
+
+
