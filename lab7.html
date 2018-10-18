@@ -23,6 +23,10 @@
     
     <input type="text" name="user" id="user" value="" placeholder="default text" required />
 <input type="email" name="user" id="user" value="" placeholder="user@domain.com" />
+    
+    
+    
+    
 <input type="password" name="user" id="user" value="" autocomplete="no" />
 <input type="number" name="num" id="num" value="1" min="1" max="99" step="1"/>
 <input type="color" name="bg" id="bg" value="#bada55" />
@@ -37,12 +41,22 @@
 <input type="tel" name="phone" id="phone" />
 <input type="file" name="resume" id="resume" />
     
-    <input type="range" name="range" id="range" value="" />
+    /*<input type="range" name="range" id="range" value="" />*/
     
     <textarea id="comments" name="comments">Default text goes here</textarea>
     
     
-    
+    <fieldset>
+    <legend>Choose a Flavour</legend>
+    <p>
+        <label for="choc">Chocolate</label>
+        <input type="radio" name="flavour" id="choc" value="Chocolate" />
+    </p>
+    <p>
+        <label for="van">Chocolate</label>
+        <input type="radio" name="flavour" id="van" value="Vanilla" />
+    </p>
+</fieldset>
 
 </body>
 
